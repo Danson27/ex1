@@ -5,7 +5,6 @@ Assignment: exercise 1
 *******************/
 #include <stdio.h>
 
-#include <stdio>
 int main() {
 
     // What bit
