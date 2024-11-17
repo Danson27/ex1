@@ -52,7 +52,7 @@ int main() {
     int maskToggle = (1 << toggle2);
     //toggled returns the toggled number by using the XOR function
     int toggled = (toggle1 ^ maskToggle);
-    printf ("Number with bit %d toggled %d \n", toggle2, toggled);
+    printf ("Number with bit %d toggled: %d \n", toggle2, toggled);
 
     // Even - Odd
     printf("\nEven - Odd:\n");
