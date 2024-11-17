@@ -35,9 +35,9 @@ int main() {
     //mask 0 is the oposite of mask1 (all ones except for a zero at bit position)
     int mask0 = ~(1 << set2);
     //mask1 OR set1 will always return the number with the 1 in the position
-    int numSetToOne (set1 | mask1);
+    int numSetToOne = (set1 | mask1);
     //mask0 AND set1 will always return the number with 0 is the position
-    int numSetToZero (set1 & mask0);
+    int numSetToZero = (set1 & mask0);
     printf ("Number with bit %d set to 1: %d \n Number with bit %d set to 0: %d\n", set2, numSetToOne, set2, numSetToZero);
 
     // Toggle bit
