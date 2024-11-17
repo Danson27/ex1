@@ -19,7 +19,7 @@ int main() {
     //the bit position is the LSB
     //by doing &1, you get the number at the LSB
     int numResult = (num1 >> num2) & 1;
-    printf ("The bit in position %d of the number %d is: %d\n", num2, num1, numResult);
+    printf ("The bit in position %d of number %d is: %d\n", num2, num1, numResult);
 
 
     // Set bit
@@ -89,7 +89,7 @@ int main() {
     int bit11 = (addResult >> 11) &1;
     //the %X will print the number in the hexidecimal base
     printf ("The sum in hexadecimal: %X\n", addResult);
-    printf ("The 3, 5, 7, 11 bits are: %d%d%d%d\n", bit3, bit5, bit7, bit11);
+    printf ("The 3,5,7,11 bits are: %d%d%d%d\n", bit3, bit5, bit7, bit11);
 
     printf("Bye!\n");
 
