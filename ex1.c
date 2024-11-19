@@ -90,6 +90,7 @@ int main() {
     printf("\n3, 5, 7, 11:\n");
     //int name oct taken from excercise name
     int oct1, oct2;
+    int bit3, bit5, bit7, bit11;
     printf ("Please enter the first number (octal): \n");
     //saves the enetered number as a number in base 8
     scanf("%o", &oct1);
@@ -99,10 +100,10 @@ int main() {
     //add the two entered numbers, still in base 8
     int addResult = oct1 + oct2;
     //each int bit returns the number of the bit in the given position
-    int bit3 = (addResult >> 3) &1;
-    int bit5 = (addResult >> 5) &1;
-    int bit7 = (addResult >> 7) &1;
-    int bit11 = (addResult >> 11) &1;
+    bit3 = (addResult >> 3) &1;
+    bit5 = (addResult >> 5) &1;
+    bit7 = (addResult >> 7) &1;
+    bit11 = (addResult >> 11) &1;
     //the %X will print the number in the hexidecimal base
     printf ("The sum in hexadecimal: %X\n", addResult);
     printf ("The 3,5,7,11 bits are: %d%d%d%d\n", bit3, bit5, bit7, bit11);
