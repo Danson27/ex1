@@ -60,14 +60,12 @@ int main() {
     int evenOdd;
     printf ("Please enter a number: \n");
     scanf("%d", &evenOdd);
-    //check the LSB. if its 0, the number is even and print 1
-    if ((evenOdd & 1) == 0) {
-        printf ("1\n");
-    }
-    //only other case is the LSB is 1 and the number is odd
-    //in this case, print 0
-    else {
-      printf ("0\n");
+    // Calculate result: 1 if even, 0 if odd
+    // if the LSB is 1, the number is odd. So 1-1 returns 0
+    // if the LSB is 0, the number is even. So 1 - 0 returns 1
+    int result = 1 - (evenOdd & 1);
+    printf("%d", result);
+    return 0;
     }
 
     // 3, 5, 7, 11
