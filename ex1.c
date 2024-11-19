@@ -79,15 +79,13 @@ int main() {
     // if the LSB is 0, the number is even. So 1 - 0 returns 1
     int result = 1 - (evenOdd & 1);
     printf("%d", result);
-    return 0;
-    }
 
     // 3, 5, 7, 11
     /* Scan two integers in octal base
   sum them up and print the result in hexadecimal base
-  Print only 4 bits, in positions: 3,5,7,11 in the result. */
+  Print only 4 bits, in positions: 3,5,7,11 in the result.*/
 
-    printf("\n3, 5, 7, 11:\n");
+    printf ("\n3, 5, 7, 11:\n");
     //int name oct taken from excercise name
     int oct1, oct2;
     int bit3, bit5, bit7, bit11;
