@@ -8,6 +8,8 @@ Assignment: exercise 1
 int main() {
 
     // What bit
+    /*Scan two integers (representing number and a position)
+      Print the bit in this position. */
     printf("What bit:\n");
     //int name num taken from excercise name
     int num1, num2;
@@ -23,6 +25,11 @@ int main() {
 
 
     // Set bit
+    /*Scan two integers (representing number and a position)
+  Make sure the bit in this position is "on" (equal to 1)
+  Print the output
+  Now make sure it's "off" (equal to 0)
+  Print the output */
     printf("\nSet bit:\n");
     //int name set taken from excercise name
     int set1, set2;
@@ -41,6 +48,10 @@ int main() {
     printf ("Number with bit %d set to 1: %d \n Number with bit %d set to 0: %d\n", set2, numSetToOne, set2, numSetToZero);
 
     // Toggle bit
+    /*Scan two integers (representing number and a position)
+  Toggle the bit in this position
+  Print the new number */
+
     printf("\nToggle bit:\n");
     //int name toggle taken from excercise name
     int toggle1, toggle2;
@@ -55,6 +66,9 @@ int main() {
     printf ("Number with bit %d toggled: %d \n", toggle2, toggled);
 
     // Even - Odd
+    /* Scan an integer
+  If the number is even - print 1, else - print 0. */
+
     printf("\nEven - Odd:\n");
     //int evenOdd taken from excercise name
     int evenOdd;
@@ -69,6 +83,10 @@ int main() {
     }
 
     // 3, 5, 7, 11
+    /* Scan two integers in octal base
+  sum them up and print the result in hexadecimal base
+  Print only 4 bits, in positions: 3,5,7,11 in the result. */
+
     printf("\n3, 5, 7, 11:\n");
     //int name oct taken from excercise name
     int oct1, oct2;
